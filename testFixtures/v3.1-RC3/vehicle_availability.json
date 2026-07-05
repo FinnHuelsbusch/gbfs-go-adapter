@@ -6,7 +6,6 @@
     "vehicles": [
       {
         "vehicle_id": "45bd3fb7-a2d5-4def-9de1-c645844ba962",
-        "vehicle_type_id": "abc123",
         "station_id": "station1",
         "pricing_plan_id": "plan3",
         "vehicle_equipment": [
