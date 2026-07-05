@@ -18,7 +18,7 @@ type Data struct {
 
 type Plan struct {
 	system_pricing_plans_v30.Plan
-	//The cost, described as per minute rate, to reserve the vehicle prior to beginning a rental.
+	// The cost, described as per minute rate, to reserve the vehicle prior to beginning a rental.
 	// This amount is charged for each minute of the vehicle reservation until the rental is initiated,
 	// or until the number of minutes defined in vehicle_types.json#default_reserve_time elapses,
 	// whichever comes first. When using this field, you MUST declare a value in vehicle_types.json#default_reserve_time.
